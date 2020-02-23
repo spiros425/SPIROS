@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+
+<head> 
+<link rel="shortcut icon" href="Screenshots/home-icon.png" type="image/png">
+<title>Home LAN Apps</title>
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style type="text/css">
+
+html {
+      
+      margin: 0;
+      padding: 0;
+      overflow-y: hidden;
+      overflow-x: hidden;
+} 
+
+body {
+    background-color: #272a2f;    
+    margin: 0;
+    padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+} 
+
+.container {
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+  width: 1920px;
+  margin: 0px auto;
+  height: 100%;
+  -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+}
+
+
+
+/*Παίζουν τέλεια για Edge και Chrome
+
+@media only screen and (max-width: 2560px) and (max-height: 1080px) {
+   html {
+      zoom: 134%;
+  }
+    li a {
+      zoom: 80%;
+  }
+}
+
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+   html {
+      zoom: 100%;
+   }
+}
+
+@media only screen and (max-width: 1280px) and (max-height: 800px) {
+   html {
+     zoom: 67%;
+   }
+
+   li a {
+      zoom: 100%;
+  }
+}
+ */
+
+@media (max-width: 2560px) {
+   .container {
+   			width: 2690px;	
+   			z-index: 1;
+   }
+}
+
+@media (max-width: 1920px){
+   .container {
+   		width: 1930px;
+   		z-index: 1;
+    }
+}
+
+@media (max-width: 1366px){
+	.container {
+		transform: scale(0.71);
+		position: absolute;
+		top: -130px;
+		left: -283px;
+		z-index: 1;
+		overflow: hidden;
+		margin: 0px auto;
+		height: 140%;
+		-webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+		box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+	}	
+}
+
+@media (max-width: 1280px){
+	.container {
+		transform: scale(0.67);
+		position: absolute;
+		top: -165px;
+		left: -325px;
+		z-index: 1;
+		overflow: hidden;
+		margin: 0px auto;
+		height: 150%;
+		-webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+		box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+	}
+}
+
+.container img {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  z-index: 1;
+  width: 84%;
+  height: 100%;
+}
+
+.container iframe {
+  position: absolute;
+  top: 0px;
+  left: 300px;
+  z-index: 2;
+  width: 84%;
+  height: 100%;
+}
+ 
+.container li img {
+  position: absolute;
+  top: 0px;
+  left: 2855px;
+  height: 100%;
+  width: 84%;
+  z-index: 3;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+nav {
+  width: 300px;
+  height: 100%;
+  background: #272a2f;
+}
+
+nav h1 {
+  padding: 20px;
+  color: #cc111c;
+  text-align: center;
+  font: 40px Georgia, Times, serif;
+}
+ 
+ul {
+  list-style: none;
+}
+
+li a {
+  z-index: 1;
+  display: block;
+  padding-left: 20px;
+  width: 280px;
+  height: 35px;
+  background: #272a2f;
+  color: red;
+  text-decoration: none;
+  font: 20px/35px Helvetica, Verdana, sans-serif;
+}
+ 
+li:nth-child(1) {
+  padding-top: 20px;
+}
+
+li a:hover {
+  background: #eee;
+}
+ 
+li a:hover + img {
+  left: 300px;
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+
+<div  class="container">
+<iframe src="https://embed.windy.com/embed2.html?lat=37.020&lon=24.719&zoom=6&level=surface&overlay=wind&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=true&detailLat=37.980&detailLon=23.730&metricWind=km%2Fh&metricTemp=%C2%B0C&radarRange=-1" ></iframe> 
+
+
+
+  <nav>
+    <h1>Home LAN Applications</h1>
+    <ul>
+      <li>
+        <a target="_blank" href="https://vppoulis.ddns.net/">Domain</a>
+        <img src="Screenshots/2.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.2/expenses/">Expenses</a>
+        <img src="Screenshots/17.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.2/hiddenpma/">PHP My Admin</a>
+        <img src="Screenshots/18.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.6:8888">Cyber Attacks</a>
+        <img src="Screenshots/1.png" alt="" style="width:84%;">        
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.1/">Modem/Router</a>
+        <img src="Screenshots/3.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.27/XartisEpikindynotitas/XartisEpikindynotitas.html">Χάρτης Επικινδυνότητας</a>
+        <img src="Screenshots/4.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.27/admin">PiHole Ad Blocker</a>
+        <img src="Screenshots/16.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.2:38475/">AIMP Control</a>
+        <img src="Screenshots/5.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.2:5151//">WinAmp Control</a>
+        <img src="Screenshots/6.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.27:8989/login?returnUrl=/">Sonarr</a>
+        <img src="Screenshots/7.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://messages.android.com/">Android Messages</a>
+        <img src="Screenshots/8.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.14:81/index.htm">IP Camera - Σαλόνι</a>
+        <img src="Screenshots/9.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.13/#hId-HostNamePage">HP Admin Page</a>
+        <img src="Screenshots/10.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.6:8112/">Deluge Torrent Client</a>
+        <img src="Screenshots/11.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.27:8765/">MotionEye DietPI</a>
+        <img src="Screenshots/12.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://kosmimatapetrou.gr/adminas/index.php?controller=AdminDashboard&token=2f4971abe43c1df2bd3f8f811adc0e47">E-Shop Πέτρου</a>
+        <img src="Screenshots/13.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.21/UI/">WD MyCloud</a>
+        <img src="Screenshots/14.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.22/login.cgi">ICY BOX NAS</a>
+        <img src="Screenshots/15.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.6:10000">WebMin</a>
+        <img src="Screenshots/19.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="http://192.168.2.27/Speedtest">Speed Test</a>
+        <img src="Screenshots/20.png" alt="" style="width:84%;">
+      </li>
+      <li>
+        <a target="_blank" href="https://192.168.2.2/phpsysinfo/index.php?disp=bootstrap">SysInfo_Desktop</a>
+        <img src="Screenshots/21.png" alt="" style="width:84%;">
+      </li>     
+      <li>
+        <a target="_blank" href="http://192.168.2.27:19999">DietPi NetData</a>
+        <img src="Screenshots/22.png" alt="" style="width:84%;">
+      </li>       
+
+    </ul>
+  </nav>
+
+<div id="img">  
+  <img id="image1" style="width:84%;"/>
+</div>
+
+</body>
+</html>
